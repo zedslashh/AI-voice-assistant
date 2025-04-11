@@ -1,0 +1,8 @@
+json
+request
+speech_recognition
+pyttsx3
+Wikipedia
+Ecapture
+time
+Wolfram Alpha
