@@ -46,6 +46,7 @@ You can install the necessary libraries using the following command:
 ```bash
 pip install -r requirements.txt
 
+```
 You can create a requirements.txt file for the project as follows:
 
 nginx
@@ -58,25 +59,25 @@ wolframalpha
 requests
 ecapture
 
-##Usage
-#1.Clone the Repository
+## Usage
+# 1.Clone the Repository
 Clone the repository to your local machine:
 
 git clone https://github.com/yourusername/AI-Personal-Assistant.git
 cd AI-Personal-Assistant
 
-#2.Install Dependencies
+# 2.Install Dependencies
 
 Install the required Python libraries:
 pip install -r requirements.txt
 
-#3.Run the Assistant
+# 3.Run the Assistant
 
 Execute the main script:
 python assistant.py
 This will start the personal assistant, and it will begin listening for voice commands.
 
-##Commands
+## Commands
 The assistant can respond to a wide variety of voice commands. Some of the supported commands include:
 
 **Time**: "What is the time?"
@@ -93,7 +94,7 @@ The assistant can respond to a wide variety of voice commands. Some of the suppo
 
 **WolframAlpha**: "What is [computational question]?"
 
-##How It Works
+## How It Works
 **Speech Recognition**: The assistant listens to the user's commands via the microphone using the speech_recognition library.
 
 **Text-to-Speech**: Once the assistant recognizes the command, it responds using the pyttsx3 library, converting text into speech.
@@ -112,25 +113,25 @@ The assistant can respond to a wide variety of voice commands. Some of the suppo
 
 **Log Off**: The assistant can log off or shut down your system using voice commands like "log off" or "sign out".
 
-##APIs Used
+## APIs Used
 **WolframAlpha API**: To answer computational and geographical questions.
 
 **OpenWeatherMap API**: To get the weather information of a city.
 
 **Wikipedia API**: To search and get summaries from Wikipedia.
 
-##Setting Up APIs
-#1. WolframAlpha API:
+## Setting Up APIs
+# 1. WolframAlpha API:
 Create an account at WolframAlpha and obtain an API key.
 Add the key to your project:
 app_id = "YOUR_WOLFRAMALPHA_API_KEY"
 
-#2. OpenWeatherMap API:
+# 2. OpenWeatherMap API:
 Sign up at OpenWeatherMap to get an API key.
 Add the key to your project:
 api_key = "YOUR_OPENWEATHERMAP_API_KEY"
 
-#3. Gemini API (Optional):
+# 3. Gemini API (Optional):
 Create a Google Gemini account and obtain the API key.
 
 
